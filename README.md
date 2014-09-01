@@ -5,6 +5,8 @@ _jQuery-Hovercap is the jQuery plugin that display caption overlays over images.
 
 ## Demo
 
+[Demo Page](http://satoh-d.github.io/jquery-hovercap/)
+
 ## Usage
 
 ```html
