@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+/*
+YUI 3.17.2 (build 9c3c78e)
+Copyright 2014 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+http://yuilibrary.com/license/
+*/
+html{color:#000;background:#FFF}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;*font-size:100%}legend{color:#000}#yui3-css-stamp.cssreset{display:none:}
+
+/**
+ * elements
+ */
+html {
+  background: #0098a6;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+
+/**
+ * page
+ */
+.page {
+  padding-top: 50px;
+}
+.page__ttl {
+  text-align: center;
+  font-size: 500%;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+.page__lead {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/**
+ * linklist
+ */
+.linklist {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.linklist__item {}
+.linklist__item a {
+  color: inherit;
+}
+
+
+/**
+ * sec
+ */
+.sec {
+  margin: 0 auto 150px;
+  width: 960px;
+}
+.sec__hd {
+  font-weight: 700;
+  font-size: 300%;
+  text-align: center;
+}
+.sec__bd {
+  font-size: 87.5%;
+}
+.sec__bd:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.sec__code {
+  float: left;
+  width: 600px;
+}
+.sec__example {
+  float: right;
+  margin-top: 1em;
+  width: 300px;
+}
+
+/**
+ * sec02
+ */
+.sec02 {
+  margin: 0 auto 100px;
+}
+.sec02__hd {
+  font-size: 200%;
+  font-weight: 700;
+  text-align: center;
+  margin: 70px 0 20px;
+}
+.sec02__bd {}
+.sec02__bd:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.sec02__code {
+  float: left;
+  width: 600px;
+}
+.sec02__example {
+  float: right;
+  margin-top: 1em;
+  width: 300px;
+}
+
+/**
+ * example
+ */
+.example {
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  width: 300px;
+}
+.example__img {}
+.example__caption {
+  background: #000;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #fff;
+  height: 100%;
+  left: 0;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/**
+ * copy
+ */
+.copy {
+  font-size: 87.5%;
+  text-align: center;
+  margin: 30px 0;
+}
