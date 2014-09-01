@@ -146,7 +146,7 @@
 				self.toggleElementProps,
 				self.settings.animationSpeed,
 				self.settings.animationEasing,
-				function() { self.onShow(); });
+				function() { self.settings.onShow(); });
 	}
 
 	Plugin.prototype.slideHideElement = function() {
@@ -173,7 +173,7 @@
 				self.toggleElementProps,
 				self.settings.animationSpeed,
 				self.settings.animationEasing,
-				function() { self.onHide(); });
+				function() { self.settings.onHide(); });
 	}
 
 	$.fn[pluginName] = function(options) {
