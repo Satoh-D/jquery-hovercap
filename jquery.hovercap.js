@@ -3,7 +3,7 @@
 	var pluginName = 'hovercap',
 			defaults = {
 				toggleElement: '',
-				toggleAnimataion: 'slide',
+				toggleAnimation: 'slide',
 				toggleDirection: 'toTop',
 				animationSpeed: 200,
 				animationEasing: 'swing',
@@ -34,14 +34,14 @@
 
 		self.$element.on({
 			mouseenter: function() {
-				if(self.settings.toggleAnimataion == 'fade') {
+				if(self.settings.toggleAnimation == 'fade') {
 					self.fadeShowElement();
 					return;
 				}
 				self.slideShowElement();
 			},
 			mouseleave: function() {
-				if(self.settings.toggleAnimataion == 'fade') {
+				if(self.settings.toggleAnimation == 'fade') {
 					self.fadeHideElement();
 					return;
 				}
@@ -53,7 +53,7 @@
 	Plugin.prototype.initToggleElement = function() {
 		var self = this;
 
-		if(self.settings.toggleAnimataion == 'slide') {
+		if(self.settings.toggleAnimation == 'slide') {
 			switch(self.settings.toggleDirection) {
 				case 'toRight':
 					self.toggleElementProps = {
@@ -83,7 +83,7 @@
 			}
 		}
 
-		if(self.settings.toggleAnimataion == 'fade') {
+		if(self.settings.toggleAnimation == 'fade') {
 			self.toggleElementProps = {
 				top: 0,
 				left: 0,
