@@ -1,9 +1,9 @@
 {
-  "name": "jquery.hovercap.js",
+  "name": "hoverCap",
   "version": "1.0.0",
   "main": "jquery.hovercap.js",
   "ignore": [
-    "sample",
+    "demo",
     "README.md",
     "LICENSE"
   ],
