@@ -34,6 +34,14 @@ $(function() {
 </body>
 ```
 
+## Installing
+
+with [Bower](http://bower.io/):
+
+```bash
+bower install hovercap
+```
+
 ## Options
 
 | Name | Type | Defualt | Description |
