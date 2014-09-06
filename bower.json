@@ -1,0 +1,13 @@
+{
+  "name": "jquery.hovercap.js",
+  "version": "1.0.0",
+  "main": "jquery.hovercap.js",
+  "ignore": [
+    "sample",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "jquery": "~1.8.0"
+  }
+}
